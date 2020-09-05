@@ -1,0 +1,15 @@
+.main {
+    background-color: rgb(201 231 246);
+    padding-bottom: 25px;
+}
+
+.search-from {
+    background-color: rgb(201 231 246);
+    padding-bottom: 25px;
+    z-index: 5;
+}
+
+.col-md-12.search-form {
+    background-color: rgb(201 231 246);
+    padding-bottom: 25px;
+}

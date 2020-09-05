@@ -1,0 +1,15 @@
+<div class="col-md-9 col-xs-12  right-part">
+    <div class="right-search-form">
+
+        <p>Search</p>
+        <div class="search-form-body">
+            <input type="text" [(ngModel)]="search_string" (ngModelChange)="HandlleSearch_Input_onkeyup($event)">
+
+            <button type="button" (click)="ClearAll()">Clear</button>
+        </div>
+    </div>
+
+    <div class="result-table">
+        <app-search-result-table></app-search-result-table>
+    </div>
+</div>

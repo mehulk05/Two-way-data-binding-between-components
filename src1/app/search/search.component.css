@@ -1,0 +1,113 @@
+.left {
+    width: 30%;
+    border: 1px solid grey;
+    height: 350px;
+    float: left;
+    padding: 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    padding: 0
+}
+
+.right {
+    width: 60%;
+    height: 350px;
+    float: left;
+    padding: 20px;
+    margin-left: 10px;
+    border-radius: 4px;
+    padding: 0
+}
+
+.main {
+    background-color: rgb(201 231 246);
+    padding-bottom: 25px;
+}
+
+.left p,
+.right1 p {
+    padding: 7px;
+    background-color: rgb(255 171 85);
+    margin-bottom: 0
+}
+
+.left .border,
+.right1 .border,
+.right2 .border {
+    padding: 8px;
+    height: 100%;
+    padding-top: 15px;
+    background-color: rgb(242 254 255);
+}
+
+.left .border {
+    height: 90%;
+}
+
+.right2 .border {
+    height: 200px;
+}
+
+.right2 {
+    margin-top: 20px;
+    border: 1.2px solid grey;
+    border-radius: 5px;
+}
+
+.right1 {
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.left label {
+    width: 40%;
+}
+
+.right {
+    width: 68%;
+}
+
+.table th {
+    padding: 5px;
+    background-color: cornflowerblue;
+}
+
+.right2 p {
+    color: #fff;
+    padding: 7px;
+    background-color: royalblue;
+    margin-bottom: 0;
+}
+
+.right1 input {
+    width: 80%;
+}
+
+.right1 button {
+    margin-left: 10px;
+}
+
+.footer-1 {
+    padding: 15px;
+}
+
+.footer {
+    background-color: rgb(242 254 255);
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.footer button {
+    float: right;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    width: 75px;
+}
+
+header {
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
